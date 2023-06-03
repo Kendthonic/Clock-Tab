@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(95, 92, 92);
+}
+.digital-clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 400px;
+    background-color: rgb(95, 92, 92);
+}
+.digitalClock{
+    font-size: 100px;
+    color: white;
+}
+.date{
+    color: white;
+}

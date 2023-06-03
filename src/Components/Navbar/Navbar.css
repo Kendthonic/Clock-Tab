@@ -1,0 +1,24 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    cursor: pointer;
+    background-color: #05386B;
+    color: #5CDB95;
+}
+.home:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+}
+.about:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+}
+.contact:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+}
+.skills:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+}

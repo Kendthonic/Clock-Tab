@@ -1,0 +1,11 @@
+<img src={requires('./../../public/logo512.png')}>
+import image from './../../public/logo512.png' = <img src={Logo} />
+
+1. Props definition
+    a. The data that you will pass inside of the components
+
+2. Utilizing Props - we make the one component reusable by using props
+    a. Put the props inside the parenthesis of a variable = on a card file
+    b. <Card title="My name is Ean" message="Hello World!" />
+    c. <Card title="New Life" message="Happy New Year" />
+    d. go back to card file then say <h1>{props.message}</h1>

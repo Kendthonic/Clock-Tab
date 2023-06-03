@@ -1,0 +1,12 @@
+import image from './../../public/logo512.png' = <img src={Logo} />
+
+1. Importing use state
+    a. import { useState } from 'react';
+
+2. State behavior 
+    a. if you put state on your function, it will change the value or whatever u set
+    b. we are only going to refresh the specific part of the page, and we don't have to refresh the whole page
+
+3. Implementing State
+    a. first import it on the file import { useState } from 'react';
+    b. put useState array inside the variable/function = const [count, setCount] = useState(0);

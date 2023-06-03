@@ -1,0 +1,45 @@
+1. Setting up ReactJS
+    a. create-react-app
+    b. cd
+    c. npm start
+
+2. Running notes
+    a. always export and import default and files
+    b. have own files for running everything
+
+3. Importing Images
+    a. create a public folder on your folder = <img src={requires('./../../public/logo512.png')}>
+    b. importing on top = import image from './../../public/logo512.png' = <img src={Logo} />
+
+4. Importing Bootstrap
+    a. search for npm i bootstrap@5.0.1
+    b. paste it in terminal and install
+    c. go to node module and import the bootstrap on the file you want to use
+
+5. Packages Installed
+    a. you can go to package.json to see what are the packages you installed
+    b. npm i = means you are about to install
+
+6. Assets folder
+    a. images = other graphic file
+    b. fonts
+    c. logos = svg, png
+
+7. Views folder
+    a. web pages = about, contact, etc..
+
+8. Components 
+    a. navbars
+    b. main page
+    c. sidebar
+    d. footer
+
+9. Helpers / Contstant / Functions
+    a. currency.js
+    b. alerts / pops up
+    c. reusability purposes
+
+10. If you don't want to run it on package 3000
+    a. go to pacakage json
+    b. go to scripts and start
+    c. --port=3030

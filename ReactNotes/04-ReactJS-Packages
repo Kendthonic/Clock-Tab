@@ -1,0 +1,4 @@
+import image from './../../public/logo512.png' = <img src={Logo} />
+
+1. Packages
+    a. use to on how are we going to utilize other people's tool in order to code less
